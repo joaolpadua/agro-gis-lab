@@ -1,12 +1,16 @@
-# Ignorar arquivos Excel brutos
-*.xlsx
+# Raw spatial data
+data/*.shp
+data/*.dbf
+data/*.shx
+data/*.prj
+data/*.cpg
 
-# Ignorar arquivos CSV brutos
-*.csv
+# Raw spreadsheets
+data/*.xlsx
 
-# Ignorar ambiente virtual
+# Virtual environment
 venv/
 
-# Ignorar arquivos temporários do Python
+# Python cache
 __pycache__/
 *.pyc
