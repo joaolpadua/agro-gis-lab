@@ -1,3 +1,12 @@
+# Ignorar arquivos Excel brutos
+*.xlsx
+
+# Ignorar arquivos CSV brutos
+*.csv
+
+# Ignorar ambiente virtual
 venv/
+
+# Ignorar arquivos temporários do Python
 __pycache__/
 *.pyc
